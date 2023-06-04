@@ -92,7 +92,7 @@ ggplot(data = data, aes(x = reorder(stat, index), y = value, label= value, fill 
 
 # Soccer
 ```{r}
-df <- fb_player_scouting_report("https://fbref.com/en/players/9674002f/Mason-Mount", pos_versus = "primary")
+df <- fb_player_scouting_report("https://football.instatscout.com/players/422750", pos_versus = "primary")
 
 player_df <- df[c(9,24,10,73,47,125,131,119,97,108,107,146),]
 
